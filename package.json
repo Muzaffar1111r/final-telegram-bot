@@ -1,0 +1,27 @@
+{
+  "name": "final-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muzaffar1111r/final-telegram-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muzaffar1111r/final-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/Muzaffar1111r/final-telegram-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
