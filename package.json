@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon "
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/Muzaffar1111r/final-telegram-bot#readme",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "node-telegram-bot-api": "^0.66.0"
   },
   "devDependencies": {
