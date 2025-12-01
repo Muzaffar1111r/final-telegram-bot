@@ -5,5 +5,12 @@ dotenv.config()
 export const bot = new TelegramBot(process.env.BOT_TOKEN, {polling: true})
 console.log("Bot ishga tushdi");
 
+bot.on("message", function (msg) {
+    const chatId = msg.chat.id;
+    const firstname = msg.chat.first_name;
 
+    bot.sendMessage(chatId, `Assalomu Aleykum, ${firstname}`);
 
+});
+
+console.log("Bot ishga tushdi...");
