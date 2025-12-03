@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon "
+    "dev": "nodemon node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Muzaffar1111r/final-telegram-bot#readme",
   "dependencies": {
     "dotenv": "^17.2.3",
+    "mongoose": "^9.0.0",
     "node-telegram-bot-api": "^0.66.0"
   },
   "devDependencies": {
