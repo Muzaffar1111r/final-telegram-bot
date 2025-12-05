@@ -17,6 +17,7 @@ async function connectDb() {
 
 }
 
+connectDb()
 
 console.log("Dastur ishga tushmoqda...");
 
