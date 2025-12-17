@@ -56,11 +56,11 @@ async function onCommands(msg) {
       `
 Mening Profilim:\n
 |--chatId: ${existingUser.chatId}
-|--ism: ${existingUser.firstname} 
+|--ism: ${existingUser.firstname}
 |--username: ${existingUser.username}
 |--active: ${existingUser.active}
 |--balance: ${existingUser.balance}
-|___________
+|___________m
     `
     );
   }

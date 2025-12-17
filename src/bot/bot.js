@@ -11,7 +11,7 @@ bot.on("message", async function (msg) {
   const chatId = msg.chat.id;
   const firstname = msg.chat.first_name;
   const text = msg.text;
-
+  
   const chatMember = await bot.getChatMember(CHANNEL_ID, chatId);
 
   console.log(chatMember);
@@ -26,7 +26,7 @@ bot.on("message", async function (msg) {
           inline_keyboard: [
             [
               {
-                text: "100x Academy Xiva",
+                text: "TG bot",
                 url: "https://t.me/formybot0927",
               },
             ],
